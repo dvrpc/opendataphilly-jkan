@@ -12,3 +12,4 @@ services:
     volumes:
       - .:/srv/jekyll
       - ./vendor/bundle:/usr/local/bundle
+      - ./venv:/srv/jekyll/import/venv

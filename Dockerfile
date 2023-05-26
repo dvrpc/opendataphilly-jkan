@@ -18,6 +18,11 @@ WORKDIR /srv/jekyll
 COPY Gemfile Gemfile.lock ./
 RUN bundle install
 
+# Install Python and create virtual environment
+RUN apt-get install -y --quiet --no-install-recommends python3 python3-venv
+RUN python3 -m venv /srv/jekyll/import/venv
+ENV PATH="/srv/jekyll/import/venv/bin:$PATH"
+
 # Add so gh-pages can detect git remotes
 RUN git config --global --add safe.directory /srv/jekyll
 

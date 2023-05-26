@@ -3,7 +3,7 @@
 ### Steps
 
 - Open a shell here, at `/import`
-- Run `./import_from_ckan.sh https://www.opendataphilly.org/api/action/package_list?all_fields=False` to generate working_files from `opendataphilly-ckan`, including:
+- Run `./import_from_ckan.sh https://catalog.dvrpc.org/api/action/package_list?all_fields=False` to generate working_files from `opendataphilly-ckan`, including:
   - A file enumerating the names to fetch metadata for: `import/working_files/all_dataset_names.txt`
   - A file containing the fetched dataset metadata: `import/working_files/odp_datasets.txt`
   - A JSON equivalent of the above: `import/working_files/odp_datasets.json`

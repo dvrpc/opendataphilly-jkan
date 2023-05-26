@@ -17,7 +17,7 @@ organizations_output_dir = f"{working_files_dir}/_organizations"
 img_output_dir = f"{working_files_dir}/img"
 organization_logos_output_path = "img/organizations"
 organization_logos_output_dir = f"{working_files_dir}/{organization_logos_output_path}"
-organizations_logos_input_url = "https://ckan.opendataphilly.org/uploads/group"
+organizations_logos_input_url = "https://catalog.dvrpc.org/uploads/group"
 
 
 # Copied Django's slugify from https://github.com/django/django/blob/main/django/utils/text.py
@@ -82,7 +82,7 @@ def make_dataset_frontmatter(ckan_ds):
 
     return {
         "area_of_interest": extras.get("Area of Interest"),
-        "maintainer_link": extras.get("Maintainer Link"),
+        "maintainer_link": "https://www.dvrpc.org",
         "maintainer_phone": extras.get("Maintainer Phone"),
         "opendataphilly_rating": extras.get("OpenDataPhilly Rating"),
         "time_period": extras.get("Time Period"),
@@ -90,11 +90,11 @@ def make_dataset_frontmatter(ckan_ds):
         "category": [group.get("title") for group in data.get("groups", [])],
         "created": data.get("metadata_created"),
         "license": data.get("license_title"),
-        "maintainer": data.get("maintainer"),
-        "maintainer_email": data.get("maintainer_email"),
+        "maintainer": "Delaware Valley Regional Planning Commission (DVRPC)",
+        "maintainer_email": "data@dvrpc.org",
         "notes": data.get("notes"),
         "source": data.get("url"),
-        "organization": data.get("organization", {}).get("title", None),
+        "organization": "Delaware Valley Regional Planning Commission (DVRPC)",
         "resources": [
             make_resource(resource) for resource in data.get("resources", [])
         ],
@@ -172,3 +172,4 @@ if __name__ == "__main__":
                 write_frontmatter(organization_frontmatter, organizations_output_dir)
 
     print("Done! Look in the import README to see what to do with these files")
+    
