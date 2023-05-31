@@ -7,6 +7,7 @@ import re
 import shutil
 import unicodedata
 from pathlib import Path
+import html2text
 
 import requests
 import yaml
@@ -19,6 +20,15 @@ organization_logos_output_path = "img/organizations"
 organization_logos_output_dir = f"{working_files_dir}/{organization_logos_output_path}"
 organizations_logos_input_url = "https://catalog.dvrpc.org/uploads/group"
 
+def convert_html_to_md(html_string):
+    if html_string is None:
+        return ""
+
+    converter = html2text.HTML2Text()
+
+    md_text = converter.handle(html_string)
+
+    return md_text  
 
 # Copied Django's slugify from https://github.com/django/django/blob/main/django/utils/text.py
 # It's somewhat overkill for our case (which is just generating valid filenames), but it's relatively
@@ -92,13 +102,13 @@ def make_dataset_frontmatter(ckan_ds):
         "license": data.get("license_title"),
         "maintainer": "Delaware Valley Regional Planning Commission (DVRPC)",
         "maintainer_email": "data@dvrpc.org",
-        "notes": data.get("notes"),
+        "notes": convert_html_to_md(data.get("notes")),
         "source": data.get("url"),
         "organization": "Delaware Valley Regional Planning Commission (DVRPC)",
         "resources": [
             make_resource(resource) for resource in data.get("resources", [])
         ],
-        "schema": "philadelphia",
+        "schema": "default",
         "tags": [tag.get("display_name") for tag in data.get("tags", [])],
         "title": data[
             "title"
