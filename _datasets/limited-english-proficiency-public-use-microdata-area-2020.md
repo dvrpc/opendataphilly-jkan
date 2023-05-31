@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:12:05.146073'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -34,26 +35,22 @@ notes: "Please refer to U:\\\\_OngoingProjects\\LEP\\ACS_5YR_B16001_PUMAs_metada
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/LimitedEngProficiencyPUMA_2020/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/LimitedEngProficiencyPUMA_2020/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::limited-english-proficiency-public-use-microdata-area-2020
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/3ab3a2337cca47aa9e68528fef241b81/info/metadata/metadata.xml?format=default
-- description: V:\Demographics\Demographics.sde\gis.Demographics.LimitedEngProficiencyPUMA_2020
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

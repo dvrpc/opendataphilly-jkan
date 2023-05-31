@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2022-12-09T18:42:18.101017'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -35,11 +36,17 @@ notes: "Nonrecurring congestion is measured by the the Planning Time Index (PTI)
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Planning Time Index by County
   url: https://catalog.dvrpc.org/dataset/5fa0425a-10bb-4ba9-8746-a437684d2788/resource/7dbd1aa6-79e5-426a-984d-9f9f99fea5e9/download/congestion.planning_time_index_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Planning Time Index by Region
   url: https://catalog.dvrpc.org/dataset/5fa0425a-10bb-4ba9-8746-a437684d2788/resource/88955cba-b217-4902-9249-bcc7ed95ea88/download/congestion.planning_time_index_by_region.csv

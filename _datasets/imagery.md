@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2022-12-20T16:56:37.238059'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -75,33 +76,49 @@ notes: 'Aerial imagery is an essential tool for planning and analysis. It presen
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: DVRPC's 2020 orthoimagery for the 9-county region can be downloaded
-    free of charge via the Pennsylvania Spatial Data Access (PASDA) website.
+- description: 'DVRPC''s 2020 orthoimagery for the 9-county region can be downloaded
+    free of
+
+    charge via the Pennsylvania Spatial Data Access (PASDA) website.
+
+
+    '
   format: HTML
   name: 2020 Orthoimagery for the DVRPC Region
   url: https://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Delaware%20Valley%20Regional%20Planning%20Commission
 - description: "DVRPC\u2019s 2015 orthoimagery for Burlington, Camden, Gloucester,\
-    \ and Mercer counties can be downloaded free of charge via the New Jersey Geographic\
-    \ Information Network (NJGIN) website. Although the imagery available via NJGIN\
-    \ is the same as the DVRPC 2015 imagery, individual tiles are based on the New\
-    \ Jersey High Resolution Orthophotography 5,000 foot Tile Index."
+    \ and Mercer\ncounties can be downloaded free of charge via the New Jersey Geographic\n\
+    Information Network (NJGIN) website. Although the imagery available via NJGIN\n\
+    is the same as the DVRPC 2015 imagery, individual tiles are based on the New\n\
+    Jersey High Resolution Orthophotography 5,000 foot Tile Index.\n\n"
   format: HTML
   name: 2015 Orthoimagery for DVRPC's NJ Counties
   url: https://njgin.nj.gov/njgin/edata/imagery/index.html#!/
 - description: "DVRPC\u2019s 2000, 2005, 2010, 2015 orthoimagery for Bucks, Chester,\
-    \ Delaware, Montgomery and Philadelphia counties can be downloaded free of charge\
-    \ via the Pennsylvania Spatial Data Access (PASDA) website."
+    \ Delaware,\nMontgomery and Philadelphia counties can be downloaded free of charge\
+    \ via the\nPennsylvania Spatial Data Access (PASDA) website.\n\n"
   format: HTML
   name: 2015, 2010, 2005, 2000 Orthoimagery for DVRPC's PA Counties
   url: https://www.pasda.psu.edu/uci/SearchResults.aspx?originator=Delaware%20Valley%20Regional%20Planning%20Commission
-- description: "This interactive mapping application displays DVRPC's aerial imagery\
-    \ indexes.  These indexes define the overall extent of the imagery and assist\
-    \ users in locating the particular images of interest to them.  Indexes for both\
-    \ DVRPC's historical aerial imagery (1959 and 1965-1995) and NJ/PA orthoimagery\
-    \ (2000-2015) are included.\r\n\r\n__PLEASE NOTE:__\r\nThis aerial imagery index\
-    \ viewer utilizes Google's basemap layers. Therefore, the imagery shown within\
-    \ the viewer is __not__ DVRPC imagery. The Google imagery is utilized simply as\
-    \ a reference to assist the user in locating his or her area of interest."
+- description: 'This interactive mapping application displays DVRPC''s aerial imagery
+    indexes.
+
+    These indexes define the overall extent of the imagery and assist users in
+
+    locating the particular images of interest to them. Indexes for both DVRPC''s
+
+    historical aerial imagery (1959 and 1965-1995) and NJ/PA orthoimagery
+
+    (2000-2015) are included. __PLEASE NOTE:__ This aerial imagery index viewer
+
+    utilizes Google''s basemap layers. Therefore, the imagery shown within the
+
+    viewer is __not__ DVRPC imagery. The Google imagery is utilized simply as a
+
+    reference to assist the user in locating his or her area of interest.
+
+
+    '
   format: HTML
   name: Aerial Imagery Index Viewer
   url: https://www.dvrpc.org/webmaps/TileIndex/

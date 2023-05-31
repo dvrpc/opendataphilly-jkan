@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2022-12-12T15:35:00.644665'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -38,11 +39,17 @@ notes: "Both the New Jersey Department of Transportation (NJDOT) and the Pennsyl
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Pavement Conditions by County
   url: https://catalog.dvrpc.org/dataset/78b265ac-28e8-44cb-9e1e-28e1d2d7d390/resource/47de2ebf-3089-4e58-af39-1cba48ada2a1/download/pavement_conditions.pavement_condition_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Pavement Conditions by Region
   url: https://catalog.dvrpc.org/dataset/78b265ac-28e8-44cb-9e1e-28e1d2d7d390/resource/a979867d-7cd4-4c86-a8cc-0eb8d13f3b4d/download/pavement_conditions.pavement_condition_by_region.csv

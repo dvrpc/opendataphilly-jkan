@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:10:38.517695'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -57,26 +58,22 @@ notes: 'NJDOT has revised the New Jersey urban area based upon the 2010 U.S. Cen
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/UrbanAreas_NJ/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/UrbanAreas_NJ/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::new-jersey-urban-boundaries
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/26efc5738b3d4573809b252c0dec3cbb/info/metadata/metadata.xml?format=default
-- description: V:\Boundaries\Boundaries.sde\gis.Boundaries.UrbanAreas_NJ
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

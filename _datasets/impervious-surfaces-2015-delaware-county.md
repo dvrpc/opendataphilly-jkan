@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:10:39.406217'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -46,26 +47,22 @@ notes: "This dataset contains impervious landbase features updated using digital
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Structures/Impervious_2015_Delaware/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Structures/Impervious_2015_Delaware/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::impervious-surfaces-2015-delaware-county
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/3a8aeae98f354513a4ccba6450d302c0/info/metadata/metadata.xml?format=default
-- description: V:\Structures\Structures.sde\gis.Structures.Impervious_2015_Delaware
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:10:40.320653'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -39,26 +40,22 @@ notes: '*** Downloaded from the [New Jersey Geographic Information Network
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/NJ_Congressional/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/NJ_Congressional/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::new-jersey-congressional-boundaries
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/a4b6fe805a3548a094d1004feeb7c7ea/info/metadata/metadata.xml?format=default
-- description: V:\Boundaries\Boundaries.sde\gis.Boundaries.NJ_Congressional
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

@@ -1,6 +1,8 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Economy
+- Planning / Zoning
 created: '2022-12-12T15:19:08.216136'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -31,27 +33,45 @@ notes: 'The American Community Survey (ACS) reports household income by the aver
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Average Household Income by Group by County
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/c7d56751-7c7b-4de1-af5a-a9f9c65770a2/download/income.hh_income_by_group_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Average Household Income by Group by Region
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/2e72fc32-f883-4905-98ad-980d48fb7d8f/download/income.hh_income_by_group_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Median Household Income by Race and Ethnicity by County
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/8146103b-f55a-40ac-b412-e48295968489/download/income.race_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Median Household Income by Race and Ethnicity by Region
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/bd626ef5-0821-41cd-ac5f-5e1e3991851b/download/income.hh_income_by_group_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Median Earnings by Sex by County
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/1974daad-7ddf-4814-93ac-a00c53ab4de1/download/income.sex_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Median Earnings by Sex by Region
   url: https://catalog.dvrpc.org/dataset/512b643e-175d-448c-a98e-050be9d68ce8/resource/2d192ac2-3df5-4f19-a643-a146f1ed40d2/download/income.sex_by_region.csv

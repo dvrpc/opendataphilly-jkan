@@ -59,7 +59,7 @@ def make_resource(ckan_resource):
         "name": ckan_resource.get("name"),
         "url": ckan_resource.get("url"),
         "format": ckan_resource.get("format"),
-        "description": ckan_resource.get("description"),
+        "description": convert_html_to_md(ckan_resource.get("description")),
     }
 
 
@@ -89,6 +89,20 @@ def make_dataset_frontmatter(ckan_ds):
     """Formats a CKAN dataset metadata into JKAN frontmatter for a dataset"""
     data = ckan_ds["result"]
     extras = {extra.get("key"): extra.get("value") for extra in data.get("extras", [])}
+    category_mapping = {
+        'Roadways': 'Transportation',
+        'Freight & Aviation': 'Transportation',
+        'Transit': 'Transportation',
+        'TIP': 'Transportation',
+        'Bicycle & Pedestrian': 'Transportation',
+        'Planning': 'Planning / Zoning',
+        'Boundaries': 'Planning / Zoning',
+        'Demographics & Housing': 'Planning / Zoning',
+        'Long-Range Plan': 'Planning / Zoning',
+        'Imagery': 'Planning / Zoning',
+        'Equity & Diversity': 'Planning / Zoning',
+        'Safety & Health': 'Public Safety'
+    }
 
     return {
         "area_of_interest": extras.get("Area of Interest"),
@@ -97,7 +111,7 @@ def make_dataset_frontmatter(ckan_ds):
         "opendataphilly_rating": extras.get("OpenDataPhilly Rating"),
         "time_period": extras.get("Time Period"),
         "usage": extras.get("Usage"),
-        "category": [group.get("title") for group in data.get("groups", [])],
+        "category": list(set([category_mapping.get(category, category) for category in data.get("category", [])])),
         "created": data.get("metadata_created"),
         "license": data.get("license_title"),
         "maintainer": "Delaware Valley Regional Planning Commission (DVRPC)",
@@ -106,7 +120,7 @@ def make_dataset_frontmatter(ckan_ds):
         "source": data.get("url"),
         "organization": "Delaware Valley Regional Planning Commission (DVRPC)",
         "resources": [
-            make_resource(resource) for resource in data.get("resources", [])
+        make_resource(resource) for resource in data.get("resources", []) if resource.get("name") != "Network Location"
         ],
         "schema": "default",
         "tags": [tag.get("display_name") for tag in data.get("tags", [])],

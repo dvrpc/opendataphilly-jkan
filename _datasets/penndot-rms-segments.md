@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2023-05-30T22:12:29.712870'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -17,26 +18,22 @@ notes: "Road segment inventory (RMSSEG) is part of PennDOT's Roadway Management 
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/PADOT_RMS/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/PADOT_RMS/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::penndot-rms-segments
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/c70fad5f2de544e78125101601d1374d/info/metadata/metadata.xml?format=default
-- description: V:\Transportation\Transportation.sde\gis.Transportation.PADOT_RMS
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

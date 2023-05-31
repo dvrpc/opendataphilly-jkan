@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:12:02.227551'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -106,26 +107,22 @@ notes: 'The TIGER/Line shapefiles and related database files (.dbf) are an extra
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/Census_CDPs_2020/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/Census_CDPs_2020/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::census-census-designated-places-cdps-2020
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/c22adb0a1cef490f8192fd639be1aee9/info/metadata/metadata.xml?format=default
-- description: V:\Demographics\Demographics.sde\gis.Demographics.Census_CDPs_2020
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

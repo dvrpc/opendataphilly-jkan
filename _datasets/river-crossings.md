@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2023-05-30T22:10:55.777828'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -38,26 +39,22 @@ notes: 'Includes highway and rail river crossing inventory for the DVRPC region.
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Freight/river_crossings/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Freight/river_crossings/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::river-crossings
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/fd83dd5dce1f40098fdd3191c6f64bc4/info/metadata/metadata.xml?format=default
-- description: V:\Freight\Freight.sde\gis.Freight.river_crossings
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

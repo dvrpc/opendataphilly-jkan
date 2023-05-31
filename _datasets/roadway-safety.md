@@ -1,6 +1,8 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Public Safety
+- Transportation
 created: '2022-12-12T15:43:52.933477'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -36,19 +38,31 @@ notes: 'People killed or seriously injured (KSI) is used as the metric for roadw
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Killed and Severely Injured Crashes 5-Year Average by County
   url: https://catalog.dvrpc.org/dataset/795beb0a-668b-4e3d-8f4b-e0d804447029/resource/f7802151-d095-49cd-a18b-b9197733e42f/download/roadway_safety.ksi_crashes_5yr_average_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Killed and Severely Injured Crashes 5-Year Average by Region
   url: https://catalog.dvrpc.org/dataset/795beb0a-668b-4e3d-8f4b-e0d804447029/resource/afb28283-1d1f-4154-9cb9-63bedf2a68cd/download/roadway_safety.ksi_crashes_5yr_average_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Annual Killed and Severely Injured Crashes by County
   url: https://catalog.dvrpc.org/dataset/795beb0a-668b-4e3d-8f4b-e0d804447029/resource/81fed065-5dab-4fbe-84ee-8a8cc5e5c628/download/roadway_safety.ksi_crashes_annual_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Annual Killed and Severely Injured Crashes by Region
   url: https://catalog.dvrpc.org/dataset/795beb0a-668b-4e3d-8f4b-e0d804447029/resource/441af895-a41e-46b8-b8df-840d98de6327/download/roadway_safety.ksi_crashes_annual_by_region.csv

@@ -1,6 +1,9 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Public Safety
+- Transportation
+- Planning / Zoning
 created: '2022-12-09T18:28:56.749668'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -25,27 +28,45 @@ notes: "Bridges are inspected every two years at minimum; bridges in poor condit
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Bridge Condition by County
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/e027fe52-4aa9-4d03-b42b-be71deee6d18/download/bridge_conditions.bridge_condition_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Bridge Condition by Region
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/0375eaa4-1ed6-41e3-84e9-84e37c97907f/download/bridge_conditions.bridge_condition_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Percentage Deficient by County
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/7037a483-7248-4353-af40-3b7969db09dc/download/bridge_conditions.deficient_percent_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Percentage Deficient by Region
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/c83b2e2c-a587-43d2-bcb0-fd9ba2da1b57/download/bridge_conditions.deficient_percent_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Total Deficient by County
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/094a4592-35f4-4d0e-a200-79bc6db01fd4/download/bridge_conditions.deficient_totals_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Total Deficient by Region
   url: https://catalog.dvrpc.org/dataset/4ecc253c-d0f5-425c-bb46-5869b701e6ce/resource/1e3d35ee-a0d5-479c-be62-6427d9fe916d/download/bridge_conditions.deficient_totals_by_region.csv

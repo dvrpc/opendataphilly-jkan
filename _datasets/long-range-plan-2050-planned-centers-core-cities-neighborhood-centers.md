@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:43.809967'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -26,26 +27,22 @@ notes: "PLANNED CENTERS, CORE CITIES & NEIGHBORHOOD CENTERS\n\nAll Connections 2
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/LRP_2050_PlanCntrNeigh/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/LRP_2050_PlanCntrNeigh/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::long-range-plan-2050-planned-centers,-core-cities,-neighborhood-centers
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/2328f2b5021241e7b05dff25f358517e/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.LRP_2050_PlanCntrNeigh
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

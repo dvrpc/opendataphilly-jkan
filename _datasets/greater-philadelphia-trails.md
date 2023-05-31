@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2023-05-30T22:11:34.125862'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -34,26 +35,22 @@ notes: "This shapefile is intended as a master shapefile of non-Circuit trails i
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/All_Trails/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/All_Trails/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::greater-philadelphia-trails
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/57bace3b813c4ac796637a923305bf88/info/metadata/metadata.xml?format=default
-- description: V:\Transportation\Transportation.sde\gis.Transportation.All_Trails
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

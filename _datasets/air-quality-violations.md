@@ -1,6 +1,8 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Public Safety
+- Environment
 created: '2022-12-08T14:29:17.323083'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -44,11 +46,17 @@ notes: 'This dataset contains trends in days violating air quality standards by 
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Annual Air Quality Violations by Region
   url: https://catalog.dvrpc.org/dataset/19688848-d761-4670-98f9-e6be1782207a/resource/2081b744-aa06-471e-995c-4bb203b063ad/download/air_quality.annual_violations_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Quarterly Air Quality Violations by Region
   url: https://catalog.dvrpc.org/dataset/19688848-d761-4670-98f9-e6be1782207a/resource/2bfa4a2e-a6d4-400f-86e6-4a2855ee59a9/download/air_quality.quarterly_violations_by_region.csv

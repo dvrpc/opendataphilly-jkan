@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2022-12-12T15:48:53.565527'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -44,15 +45,24 @@ notes: 'The region''s transit agencies report transit fleet conditions to the Fe
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Transit Vehicle Average Age by Region
   url: https://catalog.dvrpc.org/dataset/7332a277-22ed-4521-aee0-8cc36c9a2846/resource/186cefd6-41d8-4696-8a6d-525f3fb45e2f/download/transit_conditions.vehicle_age_average_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Bus Age Group by Region
   url: https://catalog.dvrpc.org/dataset/7332a277-22ed-4521-aee0-8cc36c9a2846/resource/38110e7b-07be-4aea-97d8-2fc1cde44d48/download/transit_conditions.vehicle_age_group_bus_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Rail Age Group by Region
   url: https://catalog.dvrpc.org/dataset/7332a277-22ed-4521-aee0-8cc36c9a2846/resource/86ed8f3d-e183-45a8-9cc0-583bcec25739/download/transit_conditions.vehicle_age_group_rail_by_region.csv

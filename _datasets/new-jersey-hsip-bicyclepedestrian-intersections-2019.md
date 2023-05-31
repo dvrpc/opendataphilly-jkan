@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Public Safety
 created: '2023-05-30T22:12:27.668941'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -19,26 +20,22 @@ notes: "The Federal Highway Administration (FHWA) established the Highway Safety
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/HSIP_PedBikeIntersections_2019/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Transportation/HSIP_PedBikeIntersections_2019/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::new-jersey-hsip-bicycle-pedestrian-intersections-2019
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/0ee5e153d4dc4405b68dec213a2703c9/info/metadata/metadata.xml?format=default
-- description: V:\Transportation\Transportation.sde\gis.Transportation.HSIP_PedBikeIntersections_2019
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

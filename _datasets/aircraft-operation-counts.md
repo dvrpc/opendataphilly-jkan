@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
 created: '2020-11-03T16:58:30.743860'
 license: null
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -26,21 +27,38 @@ opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
 - description: 'This table shows the published annual aircraft operations from 1998
-    to present. Operations estimates are provided fixed-wing and helicopters at each
-    aviation facility covered in the DVRPC''s Aviation Counting Program. '
+    to
+
+    present. Operations estimates are provided fixed-wing and helicopters at each
+
+    aviation facility covered in the DVRPC''s Aviation Counting Program.
+
+
+    '
   format: CSV
   name: Annual Aircraft Operation Estimates
   url: https://catalog.dvrpc.org/dataset/f3ba56e2-2016-4120-bedd-f0c8d4c8e30c/resource/30c07f3b-e7a8-46ab-8dfb-41bd65790d60/download/dvrpc_operations_summary_table.csv
-- description: This table shows the seasonal daily averages from 2006 to 2017 broken
-    down by fixed-wing aircraft versus helicopters for each aviation facility covered
-    in the DVRPC's Aviation Counting Program. Seasonal average daily operations estimates
-    are based on observed activity and represent the average daily estimated take-offs
-    and landings during each season.
+- description: 'This table shows the seasonal daily averages from 2006 to 2017 broken
+    down by
+
+    fixed-wing aircraft versus helicopters for each aviation facility covered in
+
+    the DVRPC''s Aviation Counting Program. Seasonal average daily operations
+
+    estimates are based on observed activity and represent the average daily
+
+    estimated take-offs and landings during each season.
+
+
+    '
   format: CSV
   name: Seasonal Daily Average Operation Estimates
   url: https://catalog.dvrpc.org/dataset/f3ba56e2-2016-4120-bedd-f0c8d4c8e30c/resource/62812a71-89d4-4413-9bec-6a5b935d8d6a/download/ssnl_dly_avgs_table.csv
-- description: Published final summaries for all DVRPC Aircraft Operations Counting
+- description: 'Published final summaries for all DVRPC Aircraft Operations Counting
     cycles.
+
+
+    '
   format: HTML
   name: Aircraft Count Reports
   url: https://www.dvrpc.org/aviation/aircrafttrafficcounts

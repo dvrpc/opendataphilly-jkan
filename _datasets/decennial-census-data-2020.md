@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2021-09-02T19:47:45.529585'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -38,99 +39,207 @@ notes: "This dataset contains data from the P.L. 94-171 2020 Census Redistrictin
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: 'Data Dictionary for 2020 Decennial Census Data tables.  '
+- description: 'Data Dictionary for 2020 Decennial Census Data tables.
+
+
+    '
   format: CSV
   name: All Data, Data Dictionary
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/6810b39c-b155-403d-81d0-05c66f6c6b04/download/datadictionary_2020.csv
-- description: "County-level data from the 2020 Census (P.L 94-171) Redistricting\
-    \ Data Summary Files.\r\n\r\nSee Data Dictionary for field name lookups: https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04"
+- description: 'County-level data from the 2020 Census (P.L 94-171) Redistricting
+    Data Summary
+
+    Files. See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, County-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/59c78094-2dcd-4cae-b318-b159e8f608f6/download/allcounty.csv
-- description: "MCD-level data from the 2020 Census (P.L 94-171) Redistricting Data\
-    \ Summary Files\r\n\r\nSee Data Dictionary for field name lookups: https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04"
+- description: 'MCD-level data from the 2020 Census (P.L 94-171) Redistricting Data
+    Summary
+
+    Files See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, MCD-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/df39b48a-a1f7-49de-b0f2-06f23c26b189/download/allmcd.csv
-- description: "Census Designated Place-level data from the 2020 Census (P.L 94-171)\
-    \ Redistricting Data Summary Files\r\n\r\nSee Data Dictionary for field name lookups:\
-    \ https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04\r\
-    \n"
+- description: 'Census Designated Place-level data from the 2020 Census (P.L 94-171)
+
+    Redistricting Data Summary Files See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, Census Designated Place-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/16e0a6c1-9218-47ea-959e-5233b3094bb3/download/cdp.csv
-- description: "Tract-level data from the 2020 Census (P.L 94-171) Redistricting Data\
-    \ Summary Files\r\n\r\nSee Data Dictionary for field name lookups: https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04\r\
-    \n\r\n"
+- description: 'Tract-level data from the 2020 Census (P.L 94-171) Redistricting Data
+    Summary
+
+    Files See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, Tract-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/c8a0012f-809d-40ab-a3da-01ca234d4982/download/alltract.csv
-- description: "Block Group-level data from the 2020 Census (P.L 94-171) Redistricting\
-    \ Data Summary Files\r\n\r\nSee Data Dictionary for field name lookups: https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04"
+- description: 'Block Group-level data from the 2020 Census (P.L 94-171) Redistricting
+    Data
+
+    Summary Files See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, Block Group-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/516c1b8c-5f63-4ff9-b2ba-9202e1a5ee21/download/allblocksgroup.csv
-- description: "Block-level data from 2020 Census (P.L 94-171) Redistricting Data\
-    \ Summary Files\r\n\r\nSee Data Dictionary for field name lookups: https://data.dvrpc.org/dataset/decennial-census-data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04\r\
-    \n"
+- description: 'Block-level data from 2020 Census (P.L 94-171) Redistricting Data
+    Summary
+
+    Files See Data Dictionary for field name lookups:
+
+    https://data.dvrpc.org/dataset/decennial-census-
+
+    data-2020/resource/6810b39c-b155-403d-81d0-05c66f6c6b04
+
+
+    '
   format: CSV
   name: All Data, Block-level
   url: ''
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. County level.\r\
-    \n\r\nTo view this data in GIS, navigate to V:\\Demographics\\2020 Decennial Census.lyr\r\
-    \n\r\nTags: 2020 Decennial Census, US Census Bureau, demographics, population,\
-    \ diversity, race, ethnicity, housing, household, vacancy rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. County level. To view
+
+    this data in GIS, navigate to V:\Demographics\2020 Decennial Census.lyr Tags:
+
+    2020 Decennial Census, US Census Bureau, demographics, population, diversity,
+
+    race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, County-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/9b9f1980-69de-4603-8dde-4a253ab03c2f/download/county.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. Municipal level.\r\
-    \n\r\nTo view this data in GIS, navigate to V:\\Demographics\\2020 Decennial Census.lyr\r\
-    \n\r\nTags: 2020 Decennial Census, US Census Bureau, demographics, population,\
-    \ diversity, race, ethnicity, housing, household, vacancy rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. Municipal level. To
+
+    view this data in GIS, navigate to V:\Demographics\2020 Decennial Census.lyr
+
+    Tags: 2020 Decennial Census, US Census Bureau, demographics, population,
+
+    diversity, race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, MCD-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/986f17aa-3e3c-4725-aa86-127cf799057b/download/mcd.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. MCD with Philly\
-    \ Planning District level.\r\n\r\nTo view this data in GIS, navigate to V:\\Demographics\\\
-    2020 Decennial Census.lyr\r\n\r\nTags: 2020 Decennial Census, US Census Bureau,\
-    \ demographics, population, diversity, race, ethnicity, housing, household, vacancy\
-    \ rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. MCD with Philly
+
+    Planning District level. To view this data in GIS, navigate to
+
+    V:\Demographics\2020 Decennial Census.lyr Tags: 2020 Decennial Census, US
+
+    Census Bureau, demographics, population, diversity, race, ethnicity, housing,
+
+    household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, MCD/Philadelphia Planning District-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/4be6f769-b41f-480d-bcee-1c5706eba513/download/mcd_phipd.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. Census Designated\
-    \ Place level.\r\n\r\nTo view this data in GIS, navigate to V:\\Demographics\\\
-    2020 Decennial Census.lyr\r\n\r\nTags: 2020 Decennial Census, US Census Bureau,\
-    \ demographics, population, diversity, race, ethnicity, housing, household, vacancy\
-    \ rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. Census Designated Place
+
+    level. To view this data in GIS, navigate to V:\Demographics\2020 Decennial
+
+    Census.lyr Tags: 2020 Decennial Census, US Census Bureau, demographics,
+
+    population, diversity, race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, Census Designated Place-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/1734789c-36a9-437e-bbdb-9d088dc6eab8/download/cdp.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. Census Tract level.\r\
-    \n\r\nTo view this data in GIS, navigate to V:\\Demographics\\2020 Decennial Census.lyr\r\
-    \n\r\nTags: 2020 Decennial Census, US Census Bureau, demographics, population,\
-    \ diversity, race, ethnicity, housing, household, vacancy rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. Census Tract level. To
+
+    view this data in GIS, navigate to V:\Demographics\2020 Decennial Census.lyr
+
+    Tags: 2020 Decennial Census, US Census Bureau, demographics, population,
+
+    diversity, race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, Tract-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/6bccb744-610d-4d5f-bebe-06ecf47dd157/download/tract.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. Block Group level.\r\
-    \n\r\nTo view this data in GIS, navigate to V:\\Demographics\\2020 Decennial Census.lyr\r\
-    \n\r\nTags: 2020 Decennial Census, US Census Bureau, demographics, population,\
-    \ diversity, race, ethnicity, housing, household, vacancy rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. Block Group level. To
+
+    view this data in GIS, navigate to V:\Demographics\2020 Decennial Census.lyr
+
+    Tags: 2020 Decennial Census, US Census Bureau, demographics, population,
+
+    diversity, race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, Block Group-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/6bb89c85-c4ab-4a07-877f-c81135bb7ebe/download/blockgroup.csv
-- description: "Selected data from 2020 Decennial Census data (from P.L. 94-171 2020\
-    \ Census Redistricting Data), compiled by DVRPC in August 2021. Block level.\r\
-    \n\r\nTo view this data in GIS, navigate to V:\\Demographics\\2020 Decennial Census.lyr\r\
-    \n\r\nTags: 2020 Decennial Census, US Census Bureau, demographics, population,\
-    \ diversity, race, ethnicity, housing, household, vacancy rate"
+- description: 'Selected data from 2020 Decennial Census data (from P.L. 94-171 2020
+    Census
+
+    Redistricting Data), compiled by DVRPC in August 2021. Block level. To view
+
+    this data in GIS, navigate to V:\Demographics\2020 Decennial Census.lyr Tags:
+
+    2020 Decennial Census, US Census Bureau, demographics, population, diversity,
+
+    race, ethnicity, housing, household, vacancy rate
+
+
+    '
   format: CSV
   name: Demographic Profile, Block-level
   url: https://catalog.dvrpc.org/dataset/4a64c0d9-871e-4a6e-ac25-a125600097b4/resource/aab05c04-d4c6-4c6c-9860-81132c28fc49/download/block.csv

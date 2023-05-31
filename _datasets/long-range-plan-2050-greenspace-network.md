@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:12:13.633747'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -20,26 +21,22 @@ notes: "GREENSPACE NETWORK\n\nThe Plan proposes linking and expanding\n\nthe reg
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/LRP_2050_GreenspaceNetwork/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/LRP_2050_GreenspaceNetwork/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::long-range-plan-2050-greenspace-network
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/3e3695cb888849758391b907b2638260/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.LRP_2050_GreenspaceNetwork
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

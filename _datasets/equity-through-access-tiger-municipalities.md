@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:27.450853'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -55,26 +56,22 @@ notes: 'The TIGER/Line Files are shapefiles and related database files (.dbf) th
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_TIGER_Municipalities/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_TIGER_Municipalities/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::equity-through-access-tiger-municipalities
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/345cc111168b4370a0b73d9ead9e84fc/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.ETA_TIGER_Municipalities
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

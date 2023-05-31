@@ -1,6 +1,9 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Transportation
+- Environment
+- Economy
 created: '2022-12-12T15:29:37.360619'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -23,11 +26,17 @@ notes: "Daily miles driven is a distance-based measure of all vehicle miles trav
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Vehicle Miles Traveled by County
   url: https://catalog.dvrpc.org/dataset/b3fc7ed6-7434-4e6b-a79f-314802266304/resource/6b20c83f-36f2-4caa-8f06-605b691028d7/download/miles_driven.daily_vehicle_miles_traveled_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Vehicle Miles Traveled by Region
   url: https://catalog.dvrpc.org/dataset/b3fc7ed6-7434-4e6b-a79f-314802266304/resource/3be9d49c-fc57-4ad5-91c3-daf338138faf/download/miles_driven.daily_vehicle_miles_traveled_by_region.csv

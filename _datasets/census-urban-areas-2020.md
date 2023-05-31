@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:40.361143'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -43,26 +44,22 @@ notes: 'This resource is a member of a series. The TIGER/Line shapefiles and rel
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/StateUrbanAreas_2020/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/StateUrbanAreas_2020/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::census-urban-areas-2020
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/1e91bb69d9e6498082f29284591d92b6/info/metadata/metadata.xml?format=default
-- description: V:\Demographics\Demographics.sde\gis.Demographics.StateUrbanAreas_2020
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

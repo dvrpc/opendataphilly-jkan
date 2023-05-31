@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:18.876299'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -33,26 +34,22 @@ notes: '*** Downloaded from [Pennsylvania Spatial Data Access
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/PA_Congressional/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Boundaries/PA_Congressional/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::pennsylvania-congressional-boundaries
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/ca9c8ccaac6a47cbba819a4913e4c90e/info/metadata/metadata.xml?format=default
-- description: V:\Boundaries\Boundaries.sde\gis.Boundaries.PA_Congressional
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

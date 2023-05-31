@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:58.182465'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -54,26 +55,22 @@ notes: 'Protected Open Space for the DVRPC Region as of 2016. Modified for ETA
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_EssentialServicesPoly/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_EssentialServicesPoly/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::equity-through-access-essential-services-polygon
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/5473359566824524a5108f229f2c976e/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.ETA_EssentialServicesPoly
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

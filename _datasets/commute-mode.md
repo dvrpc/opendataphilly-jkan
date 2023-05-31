@@ -1,6 +1,9 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Public Safety
+- Transportation
+- Environment
 created: '2022-12-09T18:37:11.373922'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -30,19 +33,31 @@ notes: 'Commute mode is tracked by the American Community Survey (ACS) by asking
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Drove Alone Status by County
   url: https://catalog.dvrpc.org/dataset/6143b3bb-7bbc-4b62-9bfd-a4f968f3b111/resource/bd69a9c8-7ece-42e1-83ea-223e0db3c140/download/commute_mode.drove_alone_status_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Drove Alone Status by Region
   url: https://catalog.dvrpc.org/dataset/6143b3bb-7bbc-4b62-9bfd-a4f968f3b111/resource/c29e041f-0eba-4b4e-8518-b0685e4eb839/download/commute_mode.drove_alone_status_by_region.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Non-Drove Alone Modes by County
   url: https://catalog.dvrpc.org/dataset/6143b3bb-7bbc-4b62-9bfd-a4f968f3b111/resource/2b957f4e-34f4-4df2-b74a-0c86060f598a/download/commute_mode.means_not_drove_alone_by_county.csv
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Non-Drove Alone Modes by Region
   url: https://catalog.dvrpc.org/dataset/6143b3bb-7bbc-4b62-9bfd-a4f968f3b111/resource/606c7d78-35a0-4c3d-9e12-d1e7e13d3eac/download/commute_mode.drove_alone_status_by_region.csv

@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:12:29.189342'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -18,26 +19,22 @@ notes: 'This index represents the coverage of DVRPC''s Pennsylvania State Plane 
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Imagery/DVRPC_PA_SP_index/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Imagery/DVRPC_PA_SP_index/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::pennsylvania-state-plane-aerial-imagery-tile-index
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/c941844414114344bdbf53c2a2e6a61a/info/metadata/metadata.xml?format=default
-- description: V:\Imagery\Imagery.sde\gis.Imagery.DVRPC_PA_SP_index
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

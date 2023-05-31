@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:12:05.869739'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -27,26 +28,22 @@ notes: '3/4 mile walksheds of rail stations in DVRPC Region developed for DVRPC'
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_TransitRailWalksheds/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/ETA_TransitRailWalksheds/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::equity-through-access-transit-rail-walksheds
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/aad4a4e008df4fab9fe0bb312cf01603/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.ETA_TransitRailWalksheds
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

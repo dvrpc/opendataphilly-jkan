@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:23.821238'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -43,26 +44,22 @@ notes: "Energy Use and Greenhouse Gas Emissions Inventory for Greater Philadelph
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/GHG_Inventory/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Planning/GHG_Inventory/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::energy-use-and-greenhouse-gas-emissions-inventory-for-greater-philadelphia
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/210f54f4e80c443f8ce444aa8eea0dc8/info/metadata/metadata.xml?format=default
-- description: V:\Planning\Planning.sde\gis.Planning.GHG_Inventory
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-30T22:11:21.599946'
 license: ''
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -75,26 +76,22 @@ notes: 'The TIGER/Line Files are shapefiles and related database files (.dbf) th
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: null
+- description: ''
   format: JSON
   name: Esri Rest API
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/StateBlockGroups_2010/FeatureServer/0
-- description: null
+- description: ''
   format: GeoJSON
   name: GeoJSON
   url: https://arcgis.dvrpc.org/portal/rest/services/Demographics/StateBlockGroups_2010/FeatureServer/0/query?where=1=1&outsr=4326&outfields=*&f=geojson
-- description: null
+- description: ''
   format: HTML
   name: DVRPC GIS Catalog
   url: https://dvrpc-dvrpcgis.opendata.arcgis.com/datasets/dvrpcgis::census-state-block-groups-2010
-- description: null
+- description: ''
   format: XML
   name: Metadata XML
   url: https://arcgis.dvrpc.org/dvrpc/sharing/rest/content/items/fecb4e0b92874130a51f640e1bc3a604/info/metadata/metadata.xml?format=default
-- description: V:\Demographics\Demographics.sde\gis.Demographics.StateBlockGroups_2010
-  format: ESRI Feature Class
-  name: Network Location
-  url: ''
 schema: default
 source: null
 tags: []

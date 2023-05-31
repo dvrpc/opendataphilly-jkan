@@ -1,6 +1,7 @@
 ---
 area_of_interest: null
-category: []
+category:
+- Planning / Zoning
 created: '2023-05-07T16:39:26.665508'
 license: DVRPC Data License
 maintainer: Delaware Valley Regional Planning Commission (DVRPC)
@@ -30,7 +31,10 @@ notes: "A statistical method called a dissimilarity index was used to quantify h
 opendataphilly_rating: null
 organization: Delaware Valley Regional Planning Commission (DVRPC)
 resources:
-- description: ''
+- description: '
+
+
+    '
   format: CSV
   name: Dissimilarity Index by Region
   url: https://catalog.dvrpc.org/dataset/10e58844-34cb-4216-9965-e5db3d12c494/resource/94895009-5d3c-4223-8bab-baf4f1259dd7/download/community_integration.dissimilarity_index_by_region.csv
